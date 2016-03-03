@@ -1,0 +1,29 @@
+<%= render "ceilometer.conf.erb", cookbook: 'openstack-telemetry'%>
+
+[DEFAULT]
+# The host should be same with nova.conf's host
+host=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["nova-conf"]["default"]["host"] %>
+polling_namespaces = compute
+
+##### z/VM #####
+[zvm]
+# The xCAT MN IP address or host name.
+zvm_xcat_server=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["nova-conf"]["default"]["zvm_xcat_server"] %>
+
+# The xCAT REST API username.
+zvm_xcat_username=admin
+
+# The xCAT REST API password.
+zvm_xcat_password=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["nova-conf"]["default"]["zvm_xcat_password"] %>
+
+# The xCAT node name of the z/VM hypervisor.
+zvm_host=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["nova-conf"]["default"]["zvm_host"] %>
+
+# The xCAT zHCP nodename.
+xcat_zhcp_nodename=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["xcat_zhcp_nodename"] %>
+
+# The xCAT MM node name
+zvm_xcat_master=<%= node["ibm-openstack"]["zvm-appliance"]["unchangeable-confs"]["nova-conf"]["default"]["zvm_xcat_master"] %>
+
+# Cached data update interval.
+cache_update_interval=<%= node["ibm-openstack"]["zvm-driver"]["cache_update_interval"] %>
