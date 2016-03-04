@@ -1,7 +1,7 @@
-ibm_openstack_compute_anywhere CHANGELOG
+Cookbook openstack-zvm-compute-anywhere CHANGELOG
 ==================================
 
-This file is used to list changes made in each version of the ibm_openstack_zvm_driver_compute_anywhere cookbook.
+This file is used to list changes made in each version of the openstack-zvm-compute-anywhere cookbook.
 
 12.0.2
 -----
@@ -17,7 +17,7 @@ This file is used to list changes made in each version of the ibm_openstack_zvm_
 
 10.0.0
 -----
-- Jichen - Initial release of ibm_openstack_compute_anywhere
+- Jichen - Initial release for Juno
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
