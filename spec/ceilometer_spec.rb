@@ -20,7 +20,7 @@
 
 require_relative 'spec_helper'
 
-describe 'ibm-openstack-compute-anywhere::ceilometer-cma' do
+describe 'openstack-zvm-compute-anywhere::ceilometer-cma' do
   describe 'redhat' do
     include_context 'zvm_driver_ceilometer_stubs'
     let(:runner) { ChefSpec::ServerRunner.new(REDHAT_OPTS) }
