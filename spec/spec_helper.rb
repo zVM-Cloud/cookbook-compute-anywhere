@@ -1,12 +1,12 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: ibm-openstack-compute-anywhere
+# Cookbook Name:: openstack-zvm-compute-anywhere
 # Recipe:: default
 #
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
@@ -18,7 +18,7 @@ require 'chefspec/berkshelf'
 require 'chef/application'
 require 'securerandom'
 
-ChefSpec::Coverage.start! { add_filter 'ibm-openstack-compute-anywhere' }
+ChefSpec::Coverage.start! { add_filter 'openstack-zvm-compute-anywhere' }
 
 ::LOG_LEVEL = :fatal
 ::REDHAT_OPTS = {

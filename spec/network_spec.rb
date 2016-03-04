@@ -1,12 +1,12 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: ibm_openstack_compute_anywhere
+# Cookbook Name:: openstack-zvm-compute-anywhere
 # Recipe:: network-cma
 #
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
@@ -14,7 +14,7 @@
 
 require_relative 'spec_helper'
 
-describe 'ibm-openstack-compute-anywhere::network-cma' do
+describe 'openstack-zvm-compute-anywhere::network-cma' do
   include_context 'network-common-stubs'
   describe 'redhat' do
     let(:runner) { ChefSpec::ServerRunner.new(REDHAT_OPTS) }

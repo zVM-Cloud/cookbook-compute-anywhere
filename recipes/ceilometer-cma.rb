@@ -3,13 +3,13 @@
 # =================================================================
 # Licensed Materials - Property of IBM
 #
-# (c) Copyright IBM Corp. 2015, 2016 All Rights Reserved
+# Copyright 2015, 2016 IBM Corp.
 #
 # US Government Users Restricted Rights - Use, duplication or
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 # =================================================================
 #
-# Cookbook Name:: ibm_openstack_compute_anywhere
+# Cookbook Name:: openstack-zvm-compute-anywhere
 # Recipe:: ceilometer-cma
 #
 

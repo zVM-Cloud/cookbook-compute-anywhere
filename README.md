@@ -1,4 +1,4 @@
-ibm-openstack-compute-anywhere Cookbook
+openstack-zvm-compute-anywhere Cookbook
 =================================
 This cookbook allows z/VM CMA(Cloud Manager Appliance, it provides an easy method to deploy an OpenStack controller or compute node with z/VM support) compute role to be managed by an external OpenStack controller.
 It can only be deployed on z/VM CMA.
