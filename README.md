@@ -1,7 +1,7 @@
 ibm-openstack-compute-anywhere Cookbook
 =================================
-This cookbook allows z/VM CMA compute role to be managed by a OpenStack controller from outside.
-It is for z/VM CMA, it can be deployed on z/VM CMA.
+This cookbook allows z/VM CMA compute role to be managed by an external OpenStack controller.
+It can only be deployed on z/VM CMA.
 
 Usage
 ========
